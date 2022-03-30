@@ -112,7 +112,6 @@ const Watch = () => {
       </div>
       <div className="button_box">
         <button onClick={start}>
-          {" "}
           {isRunning === true ? "Pause" : "Start"}
         </button>
         <button onClick={stop}>Stop</button>
